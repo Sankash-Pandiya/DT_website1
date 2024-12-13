@@ -20,6 +20,15 @@
     min-height: 100vh;
     line-height: 1.6;
   }
+
+  footer {
+    background: rgb(195, 150, 117);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
   
   /* utility  */
   .container {
