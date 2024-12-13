@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Makers Foundation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e0f7fa, #e0f2f1);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #00796b, #004d40);
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #004d40;
+            padding: 4px;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-image: url(background.jpg);
+            image-resolution: 100px;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #e64a19;
+        }
+
+        .team-member {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #004d40;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Change Makers Foundation</h1>
+    <p>"Empowering life, inspiring Growth"</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#donate">Donate</a>
+    <a href="#projects">Projects</a>
+    <a href="#team">Team</a>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Welcome to Change Makers Foundation</h1>
+    <p>Join us in providing education, healthcare, and economic opportunities to those in need.</p>
+    <a href="#donate" class="btn">Donate Now</a>
+    <a href="#projects" class="btn">Our Projects</a>
+</section>
+
+<section id="about" class="content">
+    <h2>About Us</h2>
+    <p>The Change Makers Foundation is dedicated to promoting self-sufficiency and wellness through education, healthcare, and economic assistance. Learn more about our mission and history.</p>
+</section>
+
+<section id="donate" class="content">
+    <h2>Donate</h2>
+    <p>Your contributions make a difference. Choose to donate once or set up recurring donations to support our cause.</p>
+    <a href="#" class="btn">Donate Securely</a>
+</section>
+
+<section id="projects" class="content">
+    <h2>Our Projects</h2>
+    <p>Explore our ongoing and completed initiatives that are changing lives. See the impact we've made and the success stories we've created.</p>
+</section>
+
+<section id="team" class="content">
+    <h2>Meet the Team</h2>
+    <p>Get to know the passionate individuals behind the Change Makers Foundation who work tirelessly to make our mission a reality.</p>
+    <div class="team-member">
+        <img src="rohit_kumar.jpg" alt="Rohit Kumar">
+        <h3>Rohit Kumar</h3>
+    </div>
+    <div class="team-member">
+        <img src="pratyush.jpg" alt="Pratyush">
+        <h3>Pratyush</h3>
+    </div>
+    <div class="team-member">
+        <img src="sanchit_aggarwal.jpg" alt="Sanchit Aggarwal">
+        <h3>Sanchit Aggarwal</h3>
+    </div>
+    <div class="team-member">
+        <img src="sanya_rai.jpg" alt="Sanya Rai">
+        <h3>Sanya Rai</h3>
+    </div>
+    <div class="team-member">
+        <img src="sankash_pandiya.jpg" alt="Sankash Pandiya">
+        <h3>Sankash Pandiya</h3>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Change Makers Foundation. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
