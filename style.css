@@ -19,7 +19,7 @@
     font-size: 1.3rem;
     min-height: 100vh;
     line-height: 1.6;
-    /* background-image: linear-gradient(#fff,rgb(195, 150, 117)) ; */
+    /* background-image: linear-gradient(#fff,rgb(214, 185, 164)); */
   }
 
   footer {
@@ -34,7 +34,7 @@
   
   /* utility  */
   .container {
-    padding: 0 5%;
+    padding: 5%;
   }
   
   a {
